@@ -429,4 +429,9 @@ span{
     .AboutUs1{
         flex-direction: column;
     }
+    .home{
+        flex-direction: column;
+    }.home1{
+        flex-direction: column;
+    }
 }
