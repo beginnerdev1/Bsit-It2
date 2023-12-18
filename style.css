@@ -107,7 +107,6 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
 }
 .aslogo img{
     max-width: 35vw;
@@ -428,6 +427,12 @@ span{
         flex-direction: column;
     }
     .AboutUs1{
+        flex-direction: column;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .home1{
         flex-direction: column;
     }
 }
