@@ -303,7 +303,7 @@ h3{
 } 
 .p3{
     color: #121212;
-    font-size: 15;
+    font-size: 0.8rem;
     text-align: center;
     text-wrap: balance;
     position: relative;
@@ -313,7 +313,7 @@ h3{
 }
 .p4{
     color: #121212;
-    font-size: 15;
+    font-size: 0.8rem;
     text-align: center;
     text-wrap: balance;
     position: relative;
@@ -427,6 +427,12 @@ span{
         flex-direction: column;
     }
     .AboutUs1{
+        flex-direction: column;
+    }
+    .home{
+        flex-direction: column;
+    }
+    .home1{
         flex-direction: column;
     }
 }
