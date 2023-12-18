@@ -107,7 +107,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    left: 10px;
+    right: 10px;
 }
 .aslogo img{
     max-width: 35vw;
@@ -264,7 +264,7 @@ span{
     
 }.Aboutbox1 {
     background: #fff;
-    height: 450px;
+    height: 490px;
     width: 703px;
     
     border-radius: 13px;
