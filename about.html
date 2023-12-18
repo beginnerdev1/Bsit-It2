@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+</head>
+
+<body>
+  <header class="header">
+    <a class="Logo">AiTech </a>
+    <img class="lmg" src="Logo.png">
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="Mission.html">Mission/Vision</a>
+      <a href="AboutUS.html">About_Us</a>  
+    </nav> 
+    <div class="toggle_btn">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    
+        
+          
+      <div class="dropdown_menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="Mission.html">Mission/Vision</a>
+        <a href="AboutUS.html">About_Us</a>
+      </div>
+  </header>
+
+  <section class="About">
+    <div class="Aboutbox1">
+     <div class="About1">
+       <h3>SCHOOL GOALS</h3>
+       <p class="p1">* Achieve academic excellence in IT education through the provision and implementation of a comprehensive and responsive curriculum;</p>
+       <p class="p2">* Establish strong engagement in relevant research endeavors and promote ethical application of generated outputs;</p>
+       <p class="p3">* Develop technological innovations applying effective concepts and principles to provide solutions to the problems of the organization and the community it serves and;</p>
+       <p class="p4">* Produce quality projects that will bring valuable impact to the college and other developmental stakeholders.</p>
+     </div>
+     
+     </div>
+ 
+   </section>
+
+   <section class="About">
+    <div class="Aboutbox1">
+     <div class="About1">
+       <h3>PROGRAM OBJECTIVES</h3>
+       <p class="p1">* To produce competitive graduates through effective implementation of quality information technology education;
+    </p>
+       <p class="p2">* To provide innovative solutions and responsive support to meet the needs of the community;</p>
+       <p class="p3">* To empower the community by providing timely and appropriate training; and</p>
+       <p class="p4">* To identify production priorities and IT investments aligned with the College strategic plan.</p>
+     </div>
+     
+     </div>
+ 
+   </section>
+    
+   
+  <script>
+    const toggleBtn = document.querySelector('.toggle_btn');
+    const toggleBtnIcon = document.querySelector('.toggle_btn i');
+    const dropDownMenu = document.querySelector('.dropdown_menu');
+
+    toggleBtn.onclick = function () {
+      dropDownMenu.classList.toggle('open');
+      const isOpen = dropDownMenu.classList.contains('open');
+
+      toggleBtnIcon.classList = isOpen
+        ? 'fa-solid fa-xmark'
+        : 'fa-solid fa-bars'
+     
+    }
+  </script>
+
+     
+</body>
+</html>
